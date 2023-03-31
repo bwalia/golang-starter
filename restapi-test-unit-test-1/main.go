@@ -11,6 +11,7 @@ import (
 // step 1- add a array of cars, matching the structure above and populate array with some dummy rackets
 // step 2- add a http server in golang, serve data in json format from the array from step 1
 // step 3- end of this task test api is working manually by typing http://localhost:8080/api/v1/cars in chrome
+// step 4 - write unit test in golang automatically everytime a developer changes code
 type car struct {
 	Model        string `json:"Model"`
 	Make         string `json:"Make"`
