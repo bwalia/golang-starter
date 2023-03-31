@@ -18,4 +18,4 @@ jobs:
           ref: "master"
 
       - name: build and run the restapi
-        run: chmod +x ./restapi-test-unit-test-1/test.sh && ./restapi-test-unit-test-1/test.sh
+        run: chmod +x ./kickstart_unit_test.sh && ./kickstart_unit_test.sh
