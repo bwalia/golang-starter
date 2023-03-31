@@ -1,6 +1,6 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-set -e
+set -x
 
 echo "=== Test GET ==="
 #curl -X GET -s localhost:8080 | rg -q "get" 

@@ -7,4 +7,4 @@ WORKDIR /opt
 
 COPY / /opt
 
-ENTRYPOINT [ "/opt/restapi-test-unit-test-1/test.sh" ]
+ENTRYPOINT [ "bash /opt/restapi-test-unit-test-1/test.sh" ]
