@@ -15,7 +15,7 @@ jobs:
       - name: checkout the repo code
         uses: actions/checkout@v2 
         with:
-          ref: "main"
+          ref: "master"
 
       - name: build and run the restapi
         run: chmod +x ./restapi-test-unit-test-1/test.sh && ./restapi-test-unit-test-1/test.sh
