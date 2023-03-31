@@ -2,6 +2,15 @@
 
 set -x
 
+#go run main.go
+go build -o /resapi-smoke-test
+
+/usr/bin/supervisord -c /etc/supervisord.conf
+
+echo "REST API Golang unit test suit"
+
+sleep 10
+
 echo "=== Test GET ==="
 #curl -X GET -s localhost:8080 | rg -q "get" 
 #curl -X POST -s localhost:8080 | rg -q "post"
